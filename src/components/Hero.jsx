@@ -2,7 +2,7 @@ import img from '../assets/img-bg.jpeg';
 const Hero = () => {
   return <section className='flex justify-center font-roboto-medium'>
     <div className="mx-auto max-w-7xl py-36 px-8 grid grid-col-2 items-start gap-8 mt-16 md:items-center md:gap-y-16 md:px-16 md:flex flex-col">
-      <article className='grid grid-cols-2 -rotate-3 -mt-20'>
+      <article className='grid grid-cols-2 -rotate-3 -mt-10'>
         <div className="hidden md:flex md:w-80">
           <img src={img} />
         </div>
