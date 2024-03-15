@@ -8,8 +8,8 @@ const About = () => {
     <SectionTitle text="about mike" />
 
     <div className="flex flex-col gap-10 lg:flex-row py-4 px-4">
-      <div className="w-3/4 md:1/2">
-        <img src={img} alt="" className="h-full" />
+      <div className="hidden md:visible lg:visible">
+        <img src={img} />
       </div>
       <div className="ml-4 flex flex-col gap-y-10">
         <h2 className="italic text-5xl font-semibold text-sky-600 font-shadow">
