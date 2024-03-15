@@ -47,21 +47,21 @@ export const projectData = [
   {
     id: nanoid(),
     img: 'https://images.ctfassets.net/tkvxc10g03l8/6Uukj7hjDJ2au8eb9dn6CI/7cfe69004d7004c1c37ef2bac368f251/progress_tracker.png',
-    title: 'progressTracker',
+    text: 'progressTracker',
     url: 'https://react-progresstracker.netlify.app/',
     github: 'https://github.com/MickealOppong/ProgressTrackerApp'
   },
   {
     id: nanoid(),
     img: 'https://images.ctfassets.net/tkvxc10g03l8/4gEOjI5YiUjSoSYNqwAJBa/53c459b5c7ba98b43eabf8c911b4921d/sidebar.png',
-    title: 'progressTracker',
+    text: 'progressTracker',
     url: 'https://react-my-sidebarmodal.netlify.app/',
     github: 'https://github.com/MickealOppong/sidebar'
   },
   {
     id: nanoid(),
     img: 'https://images.ctfassets.net/tkvxc10g03l8/5p60CAe44hoguRPNVUjch9/20e6759f6f527adb506da022bacc3481/menu.png',
-    title: 'progressTracker',
+    text: 'progressTracker',
     url: 'https://react-my-menu.netlify.app/',
     github: 'https://github.com/MickealOppong/menu'
   }
