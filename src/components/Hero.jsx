@@ -6,7 +6,7 @@ const Hero = () => {
         <div className="w-40 h-60 md:w-80 lg:w-96 bg-slate-500">
           <img src={img} />
         </div>
-        <div className="ml-4 flex flex-col gap-y-10">
+        <div className="flex flex-col -ml-16">
           <h2 className="italic text-5xl font-semibold text-sky-600 font-shadow">
             I'm Michael Oppong,
             Web Developer<br />
