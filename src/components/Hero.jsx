@@ -4,7 +4,7 @@ const Hero = () => {
     <div className="mx-auto max-w-7xl py-36 px-8 grid grid-col-2 items-start gap-8 mt-16 md:items-center md:gap-y-16 md:px-16 md:flex flex-col">
       <article className='grid grid-cols-2 -rotate-3 '>
         <div className="w-80">
-          <img src={img} className='w-60 md:w-80' />
+          <img src={img} className='w-40 md:w-80' />
         </div>
         <div className="ml-4 flex flex-col gap-y-10">
           <h2 className="italic text-5xl font-semibold text-sky-600 font-shadow">
