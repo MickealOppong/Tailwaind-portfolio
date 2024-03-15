@@ -2,8 +2,6 @@ import { nanoid } from "nanoid";
 import { FaHtml5, FaJava, FaJs, FaReact } from 'react-icons/fa';
 import img from './assets/spring.png';
 export const links = [
-
-  { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#projects", text: "projects" }

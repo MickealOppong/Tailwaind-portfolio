@@ -7,7 +7,7 @@ const Skills = () => {
       {
         skills.map((skill) => {
           const { id, title, icon, text } = skill;
-          return <article key={id} className="grid grid-col gap-4 border-2 shadow-md w-96 rounded-md px-4 py-4 lg:gap-20">
+          return <article key={id} className="grid grid-col-3 gap-4 border-2 shadow-md w-96 rounded-md px-4 py-4 lg:gap-20">
             <span >{icon}</span>
             <h2 className="text-gray-500">{title}</h2>
             <p className="text-slate-700 tracking-wide">{text}</p>
