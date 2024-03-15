@@ -6,7 +6,7 @@ const About = () => {
   const [showAbout, setShowAbout] = useState(true)
   return <section className="h-vh py-8 px-8 md:px-16 bg-gray-100  " id="about" >
     <SectionTitle text="about mike" />
-    <div className="flex flex-col gap-10 lg:flex-row py-4 px-4">
+    <div className="flex flex-col gap-10 lg:flex-row py-4 px-4 mx-16">
       <div className="">
         <img src={img} />
       </div>
