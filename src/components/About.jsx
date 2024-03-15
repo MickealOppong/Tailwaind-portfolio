@@ -1,19 +1,18 @@
 import { useState } from "react";
-import img from '../assets/img.jpeg';
+import img from '../assets/img-2.jpeg';
 import SectionTitle from "./SectionTitle";
 const About = () => {
   const [showOverview, setShowOverview] = useState(false)
   const [showAbout, setShowAbout] = useState(true)
   return <section className=" h-vh py-8 px-8 md:px-16 bg-gray-100  " id="about" >
     <SectionTitle text="about mike" />
-
     <div className="flex flex-col gap-10 lg:flex-row py-4 px-4">
-      <div className="hidden md:visible lg:visible">
+      <div className="">
         <img src={img} />
       </div>
       <div className="ml-4 flex flex-col gap-y-10">
         <h2 className="italic text-5xl font-semibold text-sky-600 font-shadow">
-          I'm Michael Oppong,<br />
+          I'm Michael Oppong,
           Web Developer<br />
           from Łódź, Poland.
         </h2>
