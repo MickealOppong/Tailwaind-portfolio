@@ -3,7 +3,7 @@ import SectionTitle from "./SectionTitle";
 const Skills = () => {
   return <section className="py-20 " id="skills">
     <SectionTitle text="tech stack" />
-    <div className="px-8 grid gap-8 mt-8 md:grid-cols-2 md:px-16 lg:grid-cols-3 lg:px-32">
+    <div className="px-8 grid gap-8 mt-8 md:px-16 md:grid-cols-2 lg:grid-cols-3 lg:px-32">
       {
         skills.map((skill) => {
           const { id, title, icon, text } = skill;
