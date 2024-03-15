@@ -23,7 +23,7 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'HTML&CSS',
+    title: 'HTML & CSS',
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
     text: "Proficient in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences."
   },
@@ -43,34 +43,28 @@ export const skills = [
 
 ]
 
-export const about = [
+export const projectData = [
   {
     id: nanoid(),
-    title: 'overview',
-    content: [
-      {
-        id: nanoid(),
-        img: '',
-        name: 'mo',
-        data: Date.now(),
-        title: 'hello world',
-        text: ' Lorem ipsum dolor sit amet consectetur adipisicing elit.Sed saepe magni nobis numquam itaque, id quaerat consequatur nam pariatur rem quasi fuga ullam libero hic tempora sequi esse deleniti at.'
-      }
-    ]
+    img: 'https://images.ctfassets.net/tkvxc10g03l8/6Uukj7hjDJ2au8eb9dn6CI/7cfe69004d7004c1c37ef2bac368f251/progress_tracker.png',
+    title: 'progressTracker',
+    url: 'https://react-progresstracker.netlify.app/',
+    github: 'https://github.com/MickealOppong/ProgressTrackerApp'
   },
   {
     id: nanoid(),
-    title: 'about',
-    content: [
-      {
-        id: nanoid(),
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Sed saepe magni nobis numquam itaque, id quaerat consequatur nam pariatur rem quasi fuga ullam libero hic tempora sequi esse deleniti at.'
-
-      }
-    ]
+    img: 'https://images.ctfassets.net/tkvxc10g03l8/4gEOjI5YiUjSoSYNqwAJBa/53c459b5c7ba98b43eabf8c911b4921d/sidebar.png',
+    title: 'progressTracker',
+    url: 'https://react-my-sidebarmodal.netlify.app/',
+    github: 'https://github.com/MickealOppong/sidebar'
   },
-
-
+  {
+    id: nanoid(),
+    img: 'https://images.ctfassets.net/tkvxc10g03l8/5p60CAe44hoguRPNVUjch9/20e6759f6f527adb506da022bacc3481/menu.png',
+    title: 'progressTracker',
+    url: 'https://react-my-menu.netlify.app/',
+    github: 'https://github.com/MickealOppong/menu'
+  }
 ]
 
 
