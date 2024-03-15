@@ -2,12 +2,12 @@ import img from '../assets/img-bg.jpeg';
 const Hero = () => {
   return <section className='flex justify-center font-roboto-medium'>
     <div className="mx-auto max-w-7xl py-36 px-8 grid grid-col-2 items-start gap-8 mt-16 md:items-center md:gap-y-16 md:px-16 md:flex flex-col">
-      <article className='grid grid-cols-2 -rotate-3 '>
-        <div className="w-40 h-60 md:w-80 lg:w-96">
+      <article className='grid grid-cols-2 -rotate-3 -mt-20'>
+        <div className="hidden md:flex md:w-80">
           <img src={img} />
         </div>
-        <div className="flex flex-col -ml-8">
-          <h2 className="italic text-5xl font-semibold text-sky-600 font-shadow">
+        <div className="flex flex-col -md:ml-20">
+          <h2 className="italic text-5xl font-semibold text-sky-600 font-shadow w-96 h-60 ">
             I'm Michael Oppong,
             Web Developer<br />
             from Łódź, Poland.
