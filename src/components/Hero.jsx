@@ -15,7 +15,6 @@ const Hero = () => {
         <div className="w-80">
           <img src={img} />
         </div>
-
         <div className="ml-4 flex flex-col gap-y-10">
           <h2 className="italic text-5xl font-semibold text-sky-600 font-shadow">
             I'm Michael Oppong,
