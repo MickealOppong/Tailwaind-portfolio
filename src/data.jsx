@@ -11,33 +11,33 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: 'Java ',
+    title: 'Java SE',
     icon: <FaJava className="h-16 w-16 text-emerald-500" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences."
+    text: "Proficient in Java SE and its core libraries for creating  desktop application."
   },
   {
     id: nanoid(),
-    title: 'Spring ',
+    title: 'Spring Frameworks ',
     icon: <img src={img} className="h-20 " />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences."
+    text: "Proficient in spring boot and spring mvc,adeptly crafting Rest-API for front end applications for optimal user experiences."
   },
   {
     id: nanoid(),
     title: 'HTML&CSS',
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences."
+    text: "Proficient in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences."
   },
   {
     id: nanoid(),
     title: 'Javascript',
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences."
+    text: "Proficient in javascript, adeptly crafting visually appealing and responsive websites for optimal user experiences."
   },
   {
     id: nanoid(),
     title: 'React',
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences."
+    text: "Proficient in react and its core libraries, adeptly crafting visually appealing and responsive websites for optimal user experiences."
   },
 
 
