@@ -13,7 +13,7 @@ const Footer = () => {
         <span>(+48) 739-593-752</span>
       </div>
       <div className='flex gap-4 '>
-        <a href="https://github.com" referrerPolicy="no-referrer" target="_blank"><FaGithub className='text-neutral h-6 w-6 ' /></a>
+        <a href="https://github.com/mickealoppong" referrerPolicy="no-referrer" target="_blank"><FaGithub className='text-neutral h-6 w-6 ' /></a>
       </div>
     </div>
     <div className="flex mt-2">

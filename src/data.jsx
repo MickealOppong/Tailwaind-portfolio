@@ -3,7 +3,7 @@ import { FaCode, FaHtml5, FaJava, FaJs, FaReact } from 'react-icons/fa';
 import img from './assets/spring.png';
 export const links = [
   { id: nanoid(), href: "https://vite-cms.netlify.app/", text: "projects" },
-  { id: nanoid(), href: "https://github.com", text: "github" },
+  { id: nanoid(), href: "https://github.com/mickealoppong", text: "github" },
 ]
 
 export const techStack = [
