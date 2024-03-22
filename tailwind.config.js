@@ -5,19 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        'midnight': '#121063',
-        'darkcyan': '#008B8B'
-      },
-      fontFamily: {
-        'shadow': ["Shadows Into Light", "cursive"],
-        'roboto-m': ["Roboto", "sans - serif"]
-      },
-      daisyui: {
-        themes: ["light", "dark", "cupcake"],
-      },
-    }
+    extend: {},
   },
-  plugins: [require("@tailwindcss/typography"), require("daisyui")]
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  daisyui: {
+    themes: ["business",
+      "dim",
+      "lemonade",
+      "night",
+      "coffee",
+      "winter",
+      "dim",
+      "nord",
+      "sunset", "autumn"]
+  }
 }

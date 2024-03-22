@@ -7,7 +7,7 @@ const About = () => {
     <SectionTitle text="about mike" />
     <article className="flex lg:flex-row px-8 md:px-16 lg:px-32">
       <div className="flex flex-col gap-y-10">
-        < p className="text-gray-500 leading-6 tracking-wider">I am a tech enthusiast ,with five(5) years experience  working as a software implementer where i worked with developers to design user interfaces and functionality for Enterprise applications.
+        < p className="prose text-primary leading-6 tracking-wider">I am a tech enthusiast ,with five(5) years experience  working as a software implementer where i worked with developers to design user interfaces and functionality for Enterprise applications.
           With the experience of working in software industry, i decided to get into coding in order to harness the untapped potentials.
         </p>
         <p className="text-gray-500 leading-6 tracking-wider -mt-8">I am married and also a father. i love spending time with my son. I come from Ghana,West of Africa. I speak English and French although English is my official language. I have a decent knowledge of Polish but still learning and i hope in the not distance future i will speak fluently.

@@ -7,7 +7,7 @@ const Hero = () => {
           <img src={img} />
         </div>
         <div className="flex flex-col -md:ml-20">
-          <h2 className="italic text-5xl font-semibold text-sky-600 font-shadow w-96 h-60 ">
+          <h2 className="italic text-5xl font-semibold text-primary font-shadow w-96 h-60 ">
             I'm Michael Oppong,
             Web Developer<br />
             from Łódź, Poland.
@@ -15,8 +15,8 @@ const Hero = () => {
         </div>
       </article>
       <div className="flex gap-4 mt-4">
-        <button className="bg-sky-500 text-white h-16 w-36 rounded-md capitalize cursor-pointer"><a href="#projects" >see projects</a></button>
-        <button className="bg-sky-500 text-white h-16 w-36 rounded-md capitalize cursor-pointer"><a href="#about" >know more</a></button>
+        <button className="btn btn-primary h-16 capitalize cursor-pointer"><a href="#projects" >see projects</a></button>
+        <button className="btn btn-primary h-16 capitalize cursor-pointer"><a href="#about" >know more</a></button>
       </div>
     </div>
 
