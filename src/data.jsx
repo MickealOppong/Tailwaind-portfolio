@@ -2,7 +2,6 @@ import { nanoid } from "nanoid";
 import { FaCode, FaHtml5, FaJava, FaJs, FaReact } from 'react-icons/fa';
 import img from './assets/spring.png';
 export const links = [
-  { id: nanoid(), href: "#about", text: "about", },
   { id: nanoid(), href: "https://vite-cms.netlify.app/", text: "projects" }
 ]
 
