@@ -7,7 +7,7 @@ const Hero = () => {
           <img src={img} />
         </div>
         <div className="flex flex-col -md:ml-20">
-          <h2 className="italic text-5xl font-semibold text-primary font-shadow w-96 h-60 ">
+          <h2 className="italic text-5xl font-semibold text-primary font-shadow w-96 h-60 tracking-wide ">
             I'm Michael Oppong,
             Web Developer<br />
             from Łódź, Poland.

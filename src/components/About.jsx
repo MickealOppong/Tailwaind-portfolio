@@ -4,10 +4,10 @@ const About = () => {
   const [showOverview, setShowOverview] = useState(false)
   const [showAbout, setShowAbout] = useState(true)
   return <>
-    <section className="py-16" id="about" >
+    <section className="py-16 mx-auto max-w-5xl" id="about" >
       <SectionTitle text="about mike" />
       <article className="px-8 md:px-16 lg:px-32">
-        <div className="flex flex-col gap-y-4 max-w-5xl">
+        <div className="flex flex-col gap-y-4 ">
           < p>I am a tech enthusiast,with five(5) years experience  working as a software implementer where i worked with developers to design user interfaces and functionality for Enterprise applications.
             With the experience of working in software industry, i decided to get into coding in order to harness the untapped potentials.
           </p>
