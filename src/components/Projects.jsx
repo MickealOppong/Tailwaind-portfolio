@@ -1,7 +1,7 @@
 import { projectData } from '../data';
 import SectionTitle from "./SectionTitle";
 const Projects = () => {
-  return <section id="projects">
+  return <section className='max-w-6xl mx-auto' id="projects">
     <SectionTitle text="Web creations" />
     <div className='max-w-6xl mx-auto px-8 grid gap-2 mt-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-4'>
       {
