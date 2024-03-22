@@ -13,8 +13,11 @@ export default {
       fontFamily: {
         'shadow': ["Shadows Into Light", "cursive"],
         'roboto-m': ["Roboto", "sans - serif"]
-      }
+      },
+      daisyui: {
+        themes: ["light", "dark", "cupcake"],
+      },
     }
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")]
 }
