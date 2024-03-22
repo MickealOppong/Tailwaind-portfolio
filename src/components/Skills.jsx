@@ -1,8 +1,10 @@
 import { skills } from "../data";
 import SectionTitle from "./SectionTitle";
 const Skills = () => {
-  return <section className="py-20 " id="skills">
-    <SectionTitle text="tech stack" />
+  return <section className="py-20" id="skills">
+    <div className="justify-center">
+      <SectionTitle text="tech stack" />
+    </div>
     <div className="max-w-6xl mx-auto grid px-8 gap-4  md:grid-cols-2 lg:grid-cols-3 mt-8" >
       {
         skills.map((skill) => {
