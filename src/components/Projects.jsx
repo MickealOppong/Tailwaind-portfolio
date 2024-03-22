@@ -7,8 +7,8 @@ const Projects = () => {
       {
         projectData.map((item) => {
           const { id, img, url, github, text } = item;
-          return <article className='grid gap-8 border-2 rounded-md shadow-md w-90 '>
-            <a href={url} referrerPolicy='non_referer' target='_blank'><img src={img} className='' /></a>
+          return <article className='grid gap-8'>
+            <a href={url} referrerPolicy='non_referer' target='_blank' ><img src={img} className='rounded-md shadow-md ' /></a>
 
           </article>
         })
