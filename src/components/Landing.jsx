@@ -2,7 +2,7 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Skills from "./Skills";
 const Landing = () => {
-  return <section className="flex flex-col h-[90vh]">
+  return <section className="flex flex-col h-[85vh]">
     <div className="">
       <Navbar />
       <Skills />
