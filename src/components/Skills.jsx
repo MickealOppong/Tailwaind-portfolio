@@ -9,8 +9,8 @@ const Skills = () => {
           const { id, title, icon, text } = skill;
           return <article key={id} className="flex flex-col border-2 gap-2 shadow-md rounded-md px-4 py-4 lg:w-90 lg:gap-4">
             <span>{icon}</span>
-            <h2 className="text-gray-700 text-xl -lg:mt-12">{title}</h2>
-            <p className="text-slate-500 tracking-wide -lg:mt-16">{text}</p>
+            <h2 className="text-base  -lg:mt-12">{title}</h2>
+            <p className="text-base tracking-wide -lg:mt-16">{text}</p>
           </article>
         })
       }

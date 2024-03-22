@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJava, FaJs, FaReact } from 'react-icons/fa';
+import { FaCode, FaHtml5, FaJava, FaJs, FaReact } from 'react-icons/fa';
 import img from './assets/spring.png';
 export const links = [
   { id: nanoid(), href: "#about", text: "about" },
@@ -13,13 +13,13 @@ export const skills = [
     id: nanoid(),
     title: 'Java SE',
     icon: <FaJava className="h-16 w-16 text-emerald-500" />,
-    text: "Proficient in Java SE and its core libraries for creating  desktop application."
+    text: "Proficient in Java and its core libraries for creating applications."
   },
   {
     id: nanoid(),
-    title: 'Spring Frameworks ',
+    title: 'Spring & Spring boot ',
     icon: <img src={img} className="h-20 " />,
-    text: "Proficient in spring boot and spring mvc,adeptly crafting Rest-API for front end applications for optimal user experiences."
+    text: "Proficient in spring boot and spring MVC design principles,adeptly crafting Rest-API for front end applications for optimal user experiences."
   },
   {
     id: nanoid(),
@@ -37,7 +37,13 @@ export const skills = [
     id: nanoid(),
     title: 'React',
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Proficient in react and its core libraries, adeptly crafting visually appealing and responsive websites for optimal user experiences."
+    text: "Proficient in react and its core libraries, adeptly crafting visually appealing and responsive websites for optimal user experiences. Knowledge of State management toolkit i.e Redux, React-router, axios,react-query etc"
+  },
+  {
+    id: nanoid(),
+    title: 'DevOps',
+    icon: <FaCode className="h-16 w-16 text-emerald-500" />,
+    text: "Git, Docker , CI & CD."
   },
 
 

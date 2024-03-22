@@ -15,7 +15,7 @@ const Projects = () => {
       }
     </div>
     <div className='flex justify-right px-32 my-8'>
-      <button className="bg-sky-600 text-white rounded-md px-2 py-2 w-36 tracking-wider"><a href="https://vite-cms.netlify.app/" referrerPolicy="no_referer" target="_blank">More projects</a></button>
+      <button className="btn btn-primary tracking-wider"><a href="https://vite-cms.netlify.app/" referrerPolicy="no_referer" target="_blank">More projects</a></button>
     </div>
   </section>
 }
